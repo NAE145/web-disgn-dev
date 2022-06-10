@@ -34,6 +34,7 @@ body {
   padding: 0 15px;
 }
 
+.nav-bar-link.active,
 .nav-bar-link:hover {
   background-color: rgb(117, 117, 117);
   cursor: pointer;
@@ -41,6 +42,16 @@ body {
 
 .nav-bar-link-item {
   color: rgb(184, 184, 184);
+}
+
+.nav-link-href {
+  color: rgb(184, 184, 184);
+  text-decoration: none;
+}
+
+.section-title {
+  margin-top: 20px;
+  color: var(--primary-color);
 }
 
 .banner-image {
